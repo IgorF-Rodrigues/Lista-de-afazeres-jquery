@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #d9eb7d;
+}
+
+.formulario {
+    align-items: center;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+
+}
+
+.form-caixa {
+    border: 3px solid #223200;
+    border-radius: 5px;
+    height: 30%;
+    margin: .5em;
+    width: 50%;
+    padding: 5px;
+}
+
+.form-caixa::placeholder {
+    color: #223200;
+    font-size: 1em;
+    padding: 5%;
+}
+
+.form-icone {
+    color: #223200;
+    font-size: 2.2em;
+}
+
+.form-icone:hover, .lista-icone:hover {
+    cursor: pointer;
+}
+
+.lista-de-tarefas {
+    background-color: #7e8f3f;
+    border: 5px solid #223200;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 90vw;
+}
+.lista {
+    list-style: none;
+}
+
+.lista-item {
+    display: flex;
+    justify-content: space-between;
+    padding: .5em 1em;
+}
+
+.lista-item:hover {
+    background-color: #acbd5e;
+    cursor: pointer;
+}
+
+.lista-icone {
+    font-size: 1.5em;
+    color: #223200;
+}
+
+.lista-tarefa {
+    align-self: center;
+    color: #223200;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+
+
+
